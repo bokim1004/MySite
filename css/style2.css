@@ -1,37 +1,69 @@
-body{
-  margin:0;
-  text-align:center;
-  font-family: 'Merriweather',serif;
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Noto Sans KR", sans-serif;
 }
-h1{
-    font-family:'Sacramento',cursive;
-    color:#66BFBF;
+h1 {
+  font-family: "Noto Sans KR", sans-serif;
+  color: #333333;
 }
-.first-container{
-  margin: 50px 0 50px 0;
+h2 {
+  padding-top: 30px;
 }
-.second-container{
-  margin: 50px 0 50px 0;
+.first-container {
+  display: flex;
+
+  justify-content: center;
+  margin: 50px 0;
 }
-.third-container{
-  margin: 50px 0 50px 0;
+.second-container {
+  display: flex;
+
+  justify-content: center;
+  margin: 60px 0;
 }
-.beginagain{
-  width:25%;
-  height:450px;
-  float:left;
-  margin-left:80px;
+
+.beginagain {
+  width: 30%;
+  object-fit: cover;
+  height: 450px;
+  float: left;
+  margin-left: 30px;
 }
-.abouttime{
-  width:25%;
-  height:450px;
-  float:left;
-  margin-left:80px;
-  margin-right:50px;
+.abouttime {
+  width: 30%;
+  object-fit: cover;
+  height: 450px;
+  float: left;
+  margin-left: 30px;
+  margin-right: 30px;
 }
-.paris{
-  width:25%;
-  height:450px;
-  float:right;
-  margin-right:80px;
+.paris {
+  width: 30%;
+  object-fit: cover;
+  height: 450px;
+  float: right;
+  margin-right: 30px;
+}
+.app1 {
+  width: 20%;
+  object-fit: cover;
+  height: 450px;
+  float: left;
+  margin-left: 30px;
+}
+.app2 {
+  width: 20%;
+  object-fit: cover;
+  height: 450px;
+  float: left;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.app3 {
+  width: 20%;
+  object-fit: cover;
+  height: 450px;
+  float: right;
+  margin-right: 30px;
 }

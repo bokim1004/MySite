@@ -1,109 +1,155 @@
-body{
-  margin:0;
-  text-align:center;
-  font-family: 'Merriweather',serif;
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Noto Sans KR", sans-serif;
 }
-h1{
+h1 {
   font-size: 5.625rem;
-  margin:50px auto 0 auto;
-  font-family:'Sacramento',cursive;
-  color:#66BFBF;
-  line-height:2;
-}
-h2{
-  font-size:2.5rem;
-  font-family:'Montserrat',sans-serif;
-  font-weight:normal;
-  color:#66BFBF;
-}
-h3{
-  padding-bottom:20px;
-  font-family:'Montserrat',sans-serif;
-  color:#11999E;
-}
-h4{
-  font-family:'Montserrat',sans-serif;
-  font-weight:normal;
-  color:black;
-}
-p{
-  font-family:'Montserrat',sans-serif;
-  line-height:2;
-  margin:50px auto 20px auto;
-}
-hr{
-  border:dotted #EAF6F6 6px;
-  border-bottom:none;
-  width:4%;
-  margin:100px auto;
-}
-a{
-  font-family:'Montserrat',sans-serif;
-  text-decoration:none;
-  color:#11999e
-}
-a:hover{
-  color:#2bc4ab;
-}
-.top-container{
-    background-color:#ddf3f5;
-    position:relative;
-    padding-top:100px;
-}
-.middle-container{
-  margin:100px 0;
+  margin: 50px auto 0 auto;
+  font-family: "Noto Sans KR", sans-serif;
 
+  /* font-family:'Sacramento',cursive; */
+  color: #66bfbf;
+  line-height: 2;
 }
-.bottom-container{
-    background-color:white;
-    padding:50px 0 20px;
-
-
+h2 {
+  font-size: 2rem;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: normal;
+  color: #333333;
 }
-.max-small{
-  width:auto; height: auto;
-  max-width:300px;
-  max-height:300px;
+h3 {
+  font-size: 1.7rem;
+  padding-bottom: 20px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+h4 {
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: normal;
+  color: black;
+}
+p {
+  font-family: "Noto Sans KR", sans-serif;
+  line-height: 2;
+  /* margin: 50px auto 20px auto; */
+}
+hr {
+  border: dotted #ffffff 6px;
+  border-bottom: none;
+  width: 8%;
+  margin: 100px auto;
+}
+a {
+  font-family: "Noto Sans KR", sans-serif;
+  text-decoration: none;
+
+  color: #68abec;
+}
+a:hover {
+  color: #ffffff;
+  background-color: #68abec;
+}
+.top-container {
+  background-color: #f7f1d2;
+  position: relative;
+  padding-top: 100px;
+}
+.header-text {
+  float: right;
+  font-size: 32px;
+  font-weight: bold;
+  padding-right: 100px;
+  color: #68abec;
 }
 
-.skill-row{
-  width:50%;
-  margin:100px auto 100px auto;
-  text-align:left;
+.top-text {
+  text-align: left;
+  padding-left: 200px;
+  margin-top: 80px;
+  padding-bottom: 40px;
 }
-.intro{
-  width:30%;
-  margin:auto;
+
+.name {
+  color: #ffffff;
+  font-weight: bold;
+  background-color: #68abec;
 }
-.copyright{
-  color: #11999e;
-  font-size:0.95rem;
-  padding:20px 0 auto 0;
+.middle-container {
+  background-color: #f7f1d2;
+  padding-top: 30px;
 }
-.top-cloud{
-  position:absolute;
-  right:300px;
-  top:40px;
+.bottom-container {
+  background-color: white;
+  padding: 30px 0 20px;
 }
-.bottom-cloud{
-  position:absolute;
-  left:250px;
-  bottom:300px;
+.max-small {
+  width: auto;
+  height: auto;
+  max-width: 400px;
+  max-height: 400px;
 }
-.travel-img{
-  width:25%;
-  float:left;
-  margin-right:30px;
+
+.middle-text {
+  font-weight: bold;
+  color: #333333;
+  font-size: 2rem;
+  padding-top: 70px;
 }
-.cinema-img{
-  width:25%;
-  float:left;
-  margin-right:30px;
+
+.skills {
+  /* margin: 0 auto; */
+  /* border: 1px solid red; */
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
 }
-.book-img{
-  width:25%;
-  float:left;
-  margin-right:30px;
+
+.skill-row {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 40%;
+  margin: 50px auto;
+  text-align: left;
+
+  padding-left: 100px;
+}
+.intro {
+  width: 30%;
+  margin: auto;
+}
+.copyright {
+  color: #68abec;
+  font-size: 0.95rem;
+  padding: 20px 0 auto 0;
+}
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+.travel-img {
+  font-size: 100px;
+  /* width: 25%; */
+  padding-right: 30px;
+  /* float: left; */
+}
+.develop-img {
+  font-size: 100px;
+  padding-right: 30px;
+  /* width: 25%; */
+  /* float: left; */
+}
+.book-img {
+  font-size: 100px;
+  width: 25%;
+  float: left;
+  margin-right: 20px;
 }
 .btn {
   background: #11cdd4;
@@ -115,7 +161,7 @@ a:hover{
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
   border-radius: 8px;
-  font-family:'Montserrat',sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
   color: #ffffff;
   font-size: 20px;
   padding: 10px 20px 10px 20px;

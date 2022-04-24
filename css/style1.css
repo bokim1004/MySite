@@ -1,37 +1,37 @@
-body{
-  margin:0;
-  text-align:center;
-  font-family: 'Merriweather',serif;
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
 }
-h1{
-    font-family:'Sacramento',cursive;
-    color:#66BFBF;
+h1 {
+  font-family: "Sacramento", cursive;
+  color: #66bfbf;
 }
-.first-container{
+.first-container {
   margin: 50px 0 50px 0;
 }
-.second-container{
+.second-container {
   margin: 50px 0 50px 0;
 }
-.third-container{
+.third-container {
   margin: 50px 0 50px 0;
 }
-.wonder{
-  width:25%;
-  height:450px;
-  float:left;
-  margin-left:80px;
+.wonder {
+  width: 25%;
+  height: 450px;
+  float: left;
+  margin-left: 80px;
 }
-.demian{
-  width:25%;
-  height:450px;
-  float:left;
-  margin-left:80px;
-  margin-right:50px;
+.demian {
+  width: 25%;
+  height: 450px;
+  float: left;
+  margin-left: 80px;
+  margin-right: 50px;
 }
-.secrets{
-  width:25%;
-  height:450px;
-  float:right;
-  margin-right:80px;
+.secrets {
+  width: 25%;
+  height: 450px;
+  float: right;
+  margin-right: 80px;
 }
